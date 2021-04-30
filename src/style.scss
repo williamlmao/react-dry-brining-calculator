@@ -1,0 +1,417 @@
+$bg: #08213b;
+$bglight: #0e345c;
+$accent: #ecebe4;
+$link: #d36150;
+$logofont: "Staatliches", cursive;
+$primaryfont: "Source Sans Pro", sans-serif;
+$headerfont: "Roboto Slab", serif;
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: $accent;
+  font-family: $logofont;
+}
+
+h2,
+h3 {
+  color: $accent;
+  font-family: $headerfont;
+  font-weight: 300;
+}
+
+b {
+  font-weight: 700;
+}
+
+h2 {
+  scroll-margin: 20px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 15px 0px 15px 0px;
+}
+
+ul {
+  font-family: $primaryfont;
+  color: $accent;
+}
+
+p,
+li {
+  font-family: $primaryfont;
+  color: $bglight;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: $primaryfont;
+  a {
+    color: $accent;
+  }
+  a:hover {
+    color: $link;
+  }
+}
+
+header {
+  margin-top: 15px;
+}
+
+.logo {
+  margin: 0, auto, 0, auto;
+  font-size: 72px;
+  text-align: center;
+  font-family: $logofont;
+}
+
+hr {
+  border-color: $accent;
+}
+
+.accent {
+  color: $accent;
+}
+
+body {
+  background-color: $bg;
+}
+
+a {
+  color: $link;
+}
+
+.container {
+  margin: auto;
+  max-width: 780px;
+}
+
+.formTitle {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.radioButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.radioButtonSubtext {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.buttonIcon svg {
+  height: 35px;
+  width: 35px;
+  fill: $accent;
+}
+
+.btn-outline-secondary {
+  border-color: $accent;
+  color: $accent;
+}
+
+.btn-outline-secondary:hover {
+  border-color: $accent;
+  color: $bg;
+  background-color: $accent;
+  .radioButtonSubtext {
+    color: $bg;
+  }
+  .buttonIcon svg {
+    fill: $bg;
+  }
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-secondary.dropdown-toggle {
+  border-color: $accent;
+  color: $bg;
+  background-color: $accent;
+  .radioButtonSubtext {
+    color: $bg;
+  }
+  .buttonIcon svg {
+    fill: $bg;
+  }
+}
+
+.weightInputGroup {
+  display: flex;
+}
+
+.weightInput {
+  min-width: 65px;
+  width: 10%;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: $accent;
+  height: 33px;
+}
+
+.weightInput:active {
+  background-color: $accent;
+}
+
+.output {
+  margin-top: 60px;
+  background-color: $accent;
+  border-radius: 10px;
+  a {
+    color: #d36150;
+    font-size: 16px;
+  }
+  li {
+    line-height: 0.9;
+    margin-bottom: 5px;
+  }
+}
+
+.faq {
+  p {
+    color: $accent;
+    font-size: 16px;
+  }
+}
+
+.sliderLabels {
+  display: flex;
+  justify-content: space-between;
+  span {
+    font-family: $logofont;
+  }
+}
+
+.range-slider__wrap .range-slider__tooltip .range-slider__tooltip__label {
+  background-color: $accent;
+  color: $bg;
+}
+
+.range-slider__wrap
+  .range-slider__tooltip.range-slider__tooltip--bottom
+  .range-slider__tooltip__arrow::before {
+  border-bottom-color: $accent;
+}
+
+.card-title {
+  font-family: $logofont;
+  letter-spacing: 0.3px;
+  font-size: 32px;
+  color: $bglight;
+}
+
+.card-subtitle {
+  font-family: $logofont;
+  letter-spacing: 0.3px;
+  font-size: 24px;
+  color: $bglight;
+}
+
+.lastCalculation {
+  color: $accent;
+}
+
+.outputHr {
+  color: $bglight;
+  border-color: $bglight;
+}
+
+.btn-primary {
+  color: $accent;
+  background-color: $bglight;
+  border-color: $bglight;
+}
+
+.btn-primary:hover {
+  background-color: $link;
+  border-color: $link;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  background-color: $link;
+  border-color: $link;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  background-color: $link;
+  border-color: $link;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: $link;
+  border-color: $link;
+}
+
+#about {
+  margin-top: 40px;
+  p,
+  li {
+    color: $accent;
+  }
+}
+
+.faq {
+  .card {
+    background: none;
+    border: none;
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      border: none;
+      background-color: $bg;
+      padding: 0;
+      .arrowContainer {
+        margin-right: 10px;
+        height: 24px;
+        width: 24px;
+      }
+      svg {
+        fill: $accent;
+      }
+      .closed {
+        transition: transform 0.4s;
+      }
+      .open {
+        transform: rotate(90deg);
+        transition: transform 0.4s;
+      }
+    }
+    .card-header:hover {
+      h3 {
+        color: $link;
+      }
+    }
+
+    .card-body {
+      padding-top: 0;
+      padding-left: 37px;
+      color: $accent;
+    }
+
+    h3 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      color: $accent;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  span,
+  p,
+  a {
+    color: $accent;
+  }
+
+  .buymeacoffee {
+    max-width: 125px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    max-height: 0;
+    opacity: 0;
+  }
+  100% {
+    max-height: 1000px;
+    opacity: 1;
+  }
+}
+
+.note {
+  font-size: 14px;
+  color: $accent;
+}
+
+.noteDark {
+  font-size: 14px;
+  color: $bg;
+}
+
+@media only screen and (max-width: 625px) {
+  .card-title {
+    font-size: 28px;
+  }
+
+  .logo {
+    font-size: 42px;
+  }
+
+  .h2 {
+    font-size: 28px;
+  }
+
+  nav {
+    max-width: 100%;
+  }
+
+  .formTitle {
+    font-size: 22px;
+  }
+
+  .radioButton {
+    font-size: 12px;
+  }
+
+  .weightInput {
+    height: 28px;
+  }
+
+  .faq {
+    .card-header {
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  p,
+  li {
+    font-size: 16px;
+  }
+
+  .footer {
+    a {
+      .buymeacoffee {
+        max-width: 100px;
+      }
+    }
+  }
+
+  .btn-group {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    .btn {
+      border-radius: 0;
+    }
+  }
+}
