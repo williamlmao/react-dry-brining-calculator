@@ -9,7 +9,9 @@ const Header = () => {
         <Link to="/">Calculator</Link>
         <Link to="/faq">FAQs</Link>
         <a href="/#about">About</a>
-        <a href="https://forms.gle/ZLV7JedngoPpsyc29">Feedback</a>
+        <a target="_blank" href="https://forms.gle/ZLV7JedngoPpsyc29">
+          Feedback
+        </a>
       </nav>
       <hr />
     </header>
