@@ -4,7 +4,8 @@ const meatInstructionRoast =
   "Salt at least 24 hours before and up to 48 hours before cooking. If you are roasting the bird, put it on a wire rack and leave it uncovered in the fridge to dry the exterior. Once you take it out of the fridge, spray or rub olive oil all over the bird and then apply any other spices/herbs you like. This will help you develop a nice crust!";
 const meatInstruction =
   "Salt at least 40 min before and up to 48 hours before cooking. If you're going to pan sear or grill, put it on a wire rack and leave it in the fridge uncovered to dry the exterior. This will help you develop a nice crust!";
-const meatInstructionGround = "The recommended salinity above would work if you're making burgers. If you're adding this ground meat to a recipe with other salty components, consider adjusting the salinity down. When it comes to ground meat, you aren't really 'dry brining'. Leaving the salt in for too long can make the texture rubbery (see 'Salting Ground Beef' below). Mix in the salt no more than 10 minutes before cooking.`;
+const meatInstructionGround =
+  "The recommended salinity above would work if you're making burgers. If you're adding this ground meat to a recipe with other salty components, consider adjusting the salinity down. When it comes to ground meat, you aren't really 'dry brining'. Leaving the salt in for too long can make the texture rubbery (see 'Salting Ground Beef' below). Mix in the salt no more than 10 minutes before cooking.";
 const fishInstruction =
   "You don't need to brine fish for very long, the salt can break down the proteins too much over time. Salt the fish 15 minutes before cooking.";
 
